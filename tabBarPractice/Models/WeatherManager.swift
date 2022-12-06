@@ -41,7 +41,7 @@ struct WeatherManager {
             let temp = decodedData.main.temp
             let name = decodedData.name
             
-            var weather = WeatherDisplay(conditionId: id, cityName: name, temperature: temp)
+            let weather = WeatherDisplay(conditionId: id, cityName: name, temperature: temp)
             
             
             
